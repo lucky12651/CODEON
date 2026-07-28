@@ -1,2 +1,2 @@
-Flask
-requests
+Flask==2.3.2
+flask-socketio==5.6.1
