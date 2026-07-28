@@ -94,4 +94,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - Thanks to the Python, Flask, GCC, G++, and Java communities for their amazing tools and documentation.
 ```
 
-Feel free to replace placeholders like `yourusername` and customize sections as needed! Let me know if you want further changes.
+Feel free to replace placeholders like `yourusername` and customize sections as needed!.
