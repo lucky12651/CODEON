@@ -4,7 +4,7 @@ import re
 import tempfile
 from pathlib import Path
 
-from codeon.runners.process import (
+from .process import (
     COMPILE_TIMEOUT,
     RUN_TIMEOUT,
     RunResult,

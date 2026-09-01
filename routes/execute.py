@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 
-from codeon.runners import SUPPORTED_LANGUAGES, run_code
+from runners import SUPPORTED_LANGUAGES, run_code
 
 bp = Blueprint("execute", __name__, url_prefix="/api")
 

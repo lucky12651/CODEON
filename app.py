@@ -1,6 +1,6 @@
 from flask import Flask
 
-from codeon.config import Config
+from config import Config
 
 
 def create_app(config_object=None):
@@ -11,9 +11,12 @@ def create_app(config_object=None):
     )
     app.config.from_object(config_object or Config)
 
-    from codeon.routes.execute import bp as execute_bp
-    from codeon.routes.pages import bp as pages_bp
+    from routes.execute import bp as execute_bp
+    from routes.pages import bp as pages_bp
 
     app.register_blueprint(pages_bp)
     app.register_blueprint(execute_bp)
     return app
+
+
+app = create_app()

@@ -3,7 +3,7 @@ from __future__ import annotations
 import tempfile
 from pathlib import Path
 
-from codeon.runners.process import (
+from .process import (
     COMPILE_TIMEOUT,
     RUN_TIMEOUT,
     RunResult,

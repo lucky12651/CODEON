@@ -4,7 +4,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-from codeon.runners.process import RUN_TIMEOUT, RunResult, format_streams, run_command
+from .process import RUN_TIMEOUT, RunResult, format_streams, run_command
 
 
 def run_python(code: str, stdin: str = "") -> RunResult:

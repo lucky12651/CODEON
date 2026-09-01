@@ -1,4 +1,4 @@
-from codeon.runners.native_runner import run_native
+from .native_runner import run_native
 
 
 def run_c(code: str, stdin: str = ""):

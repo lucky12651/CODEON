@@ -17,25 +17,24 @@ C and C++ need `gcc` / `g++` on PATH. Java needs a JDK (`javac` and `java`).
 
 ```
 run.py                      # start the app
+app.py                      # Flask factory
+config.py
 requirements.txt
-codeon/
-  __init__.py               # Flask factory
-  config.py
-  routes/
-    pages.py                # GET /
-    execute.py              # POST /api/run
-  runners/
-    python_runner.py
-    java_runner.py
-    cpp_runner.py
-    c_runner.py
-    native_runner.py        # shared gcc/g++ flow
-    process.py              # subprocess helpers
-  templates/index.html
-  static/
-    css/main.css
-    js/app.js
-    img/mark.jpg
+routes/
+  pages.py                  # GET /
+  execute.py                # POST /api/run
+runners/
+  python_runner.py
+  java_runner.py
+  cpp_runner.py
+  c_runner.py
+  native_runner.py          # shared gcc/g++ flow
+  process.py                # subprocess helpers
+templates/index.html
+static/
+  css/main.css
+  js/app.js
+  img/mark.jpg
 ```
 
 ## API

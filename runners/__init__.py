@@ -1,8 +1,8 @@
-from codeon.runners.c_runner import run_c
-from codeon.runners.cpp_runner import run_cpp
-from codeon.runners.java_runner import run_java
-from codeon.runners.process import RunResult
-from codeon.runners.python_runner import run_python
+from .c_runner import run_c
+from .cpp_runner import run_cpp
+from .java_runner import run_java
+from .process import RunResult
+from .python_runner import run_python
 
 _RUNNERS = {
     "python": run_python,
